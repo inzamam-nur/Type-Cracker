@@ -152,6 +152,7 @@ button {
   height: 100%;
   padding: 50px;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 30px;
   color: white;
   border-radius: 15px;

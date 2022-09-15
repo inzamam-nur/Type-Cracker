@@ -181,6 +181,51 @@ button {
   position: fixed;
   top: 0;
 }
+/* blog page */
+#blog {
+  position: absolute;
+  color: #9dffad;
+  right: 225px;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container{
+  color: white;
+  border: 1px solid #9dffad;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  margin: 0px 80px 15px 80px;
+  padding: 20px;
+}
+.container h1{
+  color: #9dffad;
+  font-size: 32px;
+  text-align: center;
+}
+.container p{
+  font-size: 18px;
+  margin-top: 10px;
+  padding:5px;
+}
+.container span{
+  color: #9dffad;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 24px;
+  
+}
+main{
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
 
 @media only screen and (max-width: 700px) {
   .box-container {
@@ -234,8 +279,4 @@ button {
     font-size: 18px;
   }
 }
-
-
-
-
 

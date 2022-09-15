@@ -182,6 +182,12 @@ button {
   top: 0;
 }
 /* blog page */
+.nav-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 #blog {
   position: absolute;
   color: #9dffad;
@@ -220,6 +226,7 @@ button {
 main{
   display: flex;
   width: 100%;
+  height: auto;
   padding: 50px;
   display: flex;
   justify-content: space-between;
@@ -278,5 +285,21 @@ main{
     padding-left: 5px;
     font-size: 18px;
   }
+  .container{
+    margin: 0px;
+    margin-top: 20px;
+  }
+  main{
+    padding: 20px;
+
+  }
+  #blog {
+
+    color: #9dffad;
+    right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
 }
 
